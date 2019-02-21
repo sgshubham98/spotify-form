@@ -1,0 +1,28 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	}
+
+.conatiner {
+	background-color: #20c997;
+	margin : 60px 40px;
+}
+
+.content {
+	background-color: #28a745;
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+
+.conatiner-form {
+	background-color: #343a40;
+	float: left;
+	width: 60%;
+	text-align: center;
+}
+
+ul {
+	display: table;
+	margin:0 auto;
+}
