@@ -3,6 +3,10 @@
 	color: white;
 	}
 
+body {
+	background-color: green;
+}
+
 .conatiner {
 	background-color: #20c997;
 	margin : 60px 40px;
@@ -11,18 +15,45 @@
 .content {
 	background-color: #28a745;
 	float: left;
-	width: 40%;
+	width: 30%;
 	text-align: center;
+	margin-left: 12%;
+	margin-top: 2%;
 }
 
 .conatiner-form {
 	background-color: #343a40;
 	float: left;
-	width: 60%;
-	text-align: center;
+	letter-spacing: 0.05em;
+	width: 45%;
+	margin-top: 2%;
+}
+
+label{
+	margin-left: 13%;
+}
+
+input {
+	margin-left: 13%;
+	border: none;
+	border-bottom: 1.5px solid white;
+	background: transparent;
+	min-width:50%;
+}
+
+input[type="checkbox"] {
+	margin-left: 13%;
+	min-width: 0%;
 }
 
 ul {
 	display: table;
 	margin:0 auto;
+}
+
+button {
+	background-color: #28a745;
+	border-radius: 12px;
+	border: none;
+	font-size: 18px;
 }
