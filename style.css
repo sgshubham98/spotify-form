@@ -4,7 +4,8 @@
 	}
 
 body {
-	background-color: green;
+	background-color: #7CE558;
+
 }
 
 .conatiner {
@@ -15,18 +16,21 @@ body {
 .content {
 	background-color: #28a745;
 	float: left;
+	letter-spacing: 0.07em;
 	width: 30%;
 	text-align: center;
 	margin-left: 12%;
 	margin-top: 2%;
+	height: 500px;
 }
 
 .conatiner-form {
 	background-color: #343a40;
 	float: left;
-	letter-spacing: 0.05em;
-	width: 45%;
+	letter-spacing: 0.1em;
+	width: 40%;
 	margin-top: 2%;
+	height: 500px;
 }
 
 label{
@@ -35,10 +39,11 @@ label{
 
 input {
 	margin-left: 13%;
+	margin-top: 1%;
 	border: none;
-	border-bottom: 1.5px solid white;
+	border-bottom: 1.5px solid #F8ECE9;
 	background: transparent;
-	min-width:50%;
+	min-width:70%;
 }
 
 input[type="checkbox"] {
@@ -49,6 +54,11 @@ input[type="checkbox"] {
 ul {
 	display: table;
 	margin:0 auto;
+}
+
+li{
+	margin-bottom: 2%;
+	text-align: left;
 }
 
 button {
